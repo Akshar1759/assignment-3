@@ -2,7 +2,7 @@
 
 # Purpose of The Project: To use HTML, CSS, and JavaScript and build a webiste using it.
 
- ## ANS A
+ ## ANS B
 # Project
 
 This project is a simple web application built using HTML, CSS, and JavaScript. It also utilizes Node.js and npm for managing dependencies and running the server.
@@ -45,9 +45,9 @@ This will start the server. You can then access the project in your web browser 
 ## license- 
 "ISC",
 
-## ANS B
-
+## ANS C
 I chose the ISC License because it's easy to understand and allows people to use my project however they want. It's like saying, "Go ahead, use it, change it, and share it with others!" without worrying too much about legal stuff. I want to make it as easy as possible for people to work with my project and be creative with it.
 
-## ANS C
+## ANS D
 
+In the git repositry
