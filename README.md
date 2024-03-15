@@ -51,3 +51,6 @@ I chose the ISC License because it's easy to understand and allows people to use
 ## ANS D
 
 In the git repositry
+
+## AND E
+In the git repositry
