@@ -1,0 +1,46 @@
+<head>
+  <%- include("shared/head.ejs") %>
+</head>
+
+
+<div class="container">
+
+  <form method="post" action="receipt">
+    <div class="con1">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name :</label>
+        <input type="text" class="form-control" name="name" />
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number :</label>
+        <input type="text" class="form-control" name="phone" placeholder="555-555-5555" />
+      </div>
+
+      <div class="mb-3">
+        <label for="product1" class="form-label">Mango Juices ($2.99) :</label>
+        <input type="text" class="form-control" name="product1" />
+      </div>
+
+      <div class="mb-3">
+        <label for="product2" class="form-label">Berry juices ($1.99) :</label>
+        <input type="text" class="form-control" name="product2" />
+      </div>
+
+      <div class="mb-3">
+        <label for="product3" class="form-label">Apple Juices ($2.49) :</label>
+        <input type="text" class="form-control" name="product3" />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Place Order</button>
+  </form>
+
+  <div id="error">
+    <% if(typeof(errors) !='undefined' ){ for(error of errors){ %>
+      <%= error.msg %><br>
+        <% } } %>
+  </div>
+</div>
+
+</div>
+<%- include("shared/footer.ejs")%>
